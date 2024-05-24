@@ -1,0 +1,105 @@
+.border{
+    border: 1.2px solid transparent;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+
+.border:hover{
+    border-color: white;
+}
+
+.card{
+    width: 300px;
+    height: auto;
+    margin: 0.7rem 0;
+    background-color: #fafcfc;
+    padding: 22px;
+    position: relative;
+}
+
+.main-card-product-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 26px;
+}
+
+.card-product{
+    width: 140px;
+    height: 120px;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+
+.card-product-img{
+    width:100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.card-product-title{
+    font-size: 0.75rem;
+    padding-top: 2px;
+    transition: all 0.4s;
+
+}
+.card-product:hover .card-product-title{
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
+
+.card-link{
+    width: calc(100%-44px);
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+}
+
+.card-link a {
+    position: relative;
+    width: 100%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(5,138,164);
+}
+.card-link a:hover {
+    color: #f08503;
+    text-decoration: underline;
+}
+.slider-item{
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.slider-item:hover{
+    opacity: 0.55;
+}
+
+.box{
+    margin: 28px 40px;
+
+}
+
+.box .boxtitle{
+    color: #fff;
+    padding-bottom: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.box .boxlinks a{
+    color: #cfd1d1;
+    font-size: 0.88rem;
+    margin-top: 7px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.box .boxlinks a:hover{
+    text-decoration: underline;
+}
